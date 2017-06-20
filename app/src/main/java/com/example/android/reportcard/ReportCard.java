@@ -13,12 +13,12 @@ public class ReportCard {
     private int mEconomicsGrade;
 
 
-    public ReportCard(int AlgebraGrade, int EnglishGrade, int ComputerGrade, int BiologyGrade, int EconomicsGrade) {
-        mAlgebraGrade = AlgebraGrade;
-        mEnglishGrade = EnglishGrade;
-        mComputerGrade = ComputerGrade;
-        mBiologyGrade = BiologyGrade;
-        mEconomicsGrade = EconomicsGrade;
+    public ReportCard(int algebraGrade, int englishGrade, int computerGrade, int biologyGrade, int economicsGrade) {
+        mAlgebraGrade = algebraGrade;
+        mEnglishGrade = englishGrade;
+        mComputerGrade = computerGrade;
+        mBiologyGrade = biologyGrade;
+        mEconomicsGrade = economicsGrade;
     }
 
     public int getAlgebraGrade() {
@@ -41,26 +41,25 @@ public class ReportCard {
         return mEconomicsGrade;
     }
 
-    public void setAlgebraGrade(int AlgebraGrade) {
-        mAlgebraGrade = AlgebraGrade;
+    public void setAlgebraGrade(int algebraGrade) {
+        mAlgebraGrade = algebraGrade;
     }
 
-    public void setEnglishGrade(int EnglishGrade) {
-        mEnglishGrade = EnglishGrade;
+    public void setEnglishGrade(int englishGrade) {
+        mEnglishGrade = englishGrade;
     }
 
-    public void setComputerGrade(int ComputerGrade) {
-        mComputerGrade = ComputerGrade;
+    public void setComputerGrade(int computerGrade) {
+        mComputerGrade = computerGrade;
     }
 
-    public void setBiologyGrade(int BiologyGrade) {
-        mBiologyGrade = BiologyGrade;
+    public void setBiologyGrade(int biologyGrade) {
+        mBiologyGrade = biologyGrade;
     }
 
-    public void setEconomicsGrade(int EconomicsGrade) {
-        mEconomicsGrade = EconomicsGrade;
+    public void setEconomicsGrade(int economicsGrade) {
+        mEconomicsGrade = economicsGrade;
     }
-
 
     @Override
     public String toString() {
